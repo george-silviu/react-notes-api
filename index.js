@@ -8,7 +8,7 @@ app.use((req, res, next) => {
   next();
 });
 
-app.get("/notes", (req, res) => {
+app.get("/api/notes", (req, res) => {
   const data = [
     { id: 1, note: "Buy vegetables", description: "" },
     { id: 2, note: "Do laundry", description: "Urgent" },
